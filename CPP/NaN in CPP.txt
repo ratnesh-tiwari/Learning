@@ -1,0 +1,19 @@
+-“Not a Number” is an exception
+-occurs in the cases when an expression results in a number that can’t be represented
+-example: square root of negative numbers
+
+
+How to check for NaN ?
+
+Method_01: Using compare (“==”) operator
+
+-number is compared with itself
+- if result is false, then “nan” is returned, i.e the number is complex
+-If the result is true, then the number is not complex
+
+
+
+Method_02: Using inbuilt function “isnan()”
+-returns true if a number is complex else it returns false
+
+
